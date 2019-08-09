@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
-#bodie{
+body{
   margin:0;
   height:100vh;
   width:100vw;
@@ -50,6 +50,7 @@ p{
 
 
 }
+
 @media only screen and (max-width: 600px){
   #date-info{
   font-size:3vw;
@@ -60,6 +61,61 @@ p{
 
 
 }
+@media only screen and (max-height: 600px){
+  #new-date{
+    font-size:30px
+  }
+  #date-info{
+  font-size:25px;
+}
+  p{
+  font-size:15px;
+}
+
+@media only screen and (max-height: 500px){
+  #new-date{
+    font-size:25px
+  }
+  #date-info{
+  font-size:20px;
+}
+  p{
+  font-size:10px;
+}
+}
+  @media only screen and (max-height: 400px){
+   #new-date{
+    font-size:20px
+  }
+  #date-info{
+  font-size:15px;
+}
+  p{
+  font-size:10px;
+}
+}
+@media only screen and (max-height: 300px){
+   #new-date{
+    font-size:15px
+  }
+  #date-info{
+  font-size:10px;
+}
+  p{
+  font-size:5px;
+}
+}
+  @media only screen and (max-height: 200px){
+   #new-date{
+    font-size:10px
+  }
+  #date-info{
+  font-size:7px;
+}
+  p{
+  font-size:5px;
+}
+}
 #float-bar{
   text-decoration: none;
   display: flex;
@@ -69,13 +125,10 @@ p{
   left:0;
   width:100vw;
 }
-#float-bar:hover{
-  color:white;
-}
+
 .bar{
   text-decoration: none;
   color:black;
-
 }
 ul{
   display:flex;
@@ -83,10 +136,11 @@ ul{
   margin-right:35px;
 }
 li{
-  font-size: 2em;
+  font-size:2em;
   padding: 10px;
   list-style: none;
+  color:white;
 }
 .bar:hover{
-  color:white;
+  color:grey;
 }
